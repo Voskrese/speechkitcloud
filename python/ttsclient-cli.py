@@ -5,6 +5,8 @@
 import logging
 import click
 import sys
+reload(sys)
+sys.setdefaultencoding('utf-8')
 
 import asrclient.ttsclient as client
 
